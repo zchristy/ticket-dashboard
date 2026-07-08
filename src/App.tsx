@@ -10,7 +10,7 @@ function App() {
       <SideBar />
       <div className='flex flex-col w-6/7'>
         <TopBar />
-        <div className='p-2 border h-14/15 w-full'>
+        <div className='p-2 border h-14/15'>
           <Outlet />
         </div>
       </div>
